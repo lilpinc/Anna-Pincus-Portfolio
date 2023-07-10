@@ -25,7 +25,7 @@ Collaborators/Third-party:
 - W3schools.com
 
 ScreenShot:
-![ScreenShot](<assets/Screen Shot 2023-07-10 at 5.21.07 PM.png>)
+![ScreenShot](<assets/images/Screen Shot 2023-07-10 at 5.21.07 PM.png>)
 
 ## License
 
