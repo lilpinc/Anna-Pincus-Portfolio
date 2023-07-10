@@ -51,7 +51,7 @@ header ul li a{
 .space {
     height: 15vh;
     width: 100vw;
-    background-image: url("upload5_Original.jpg");
+    background-image: url("assets/images/upload5_Original.jpg");
     background-repeat: none;
     background-size: cover;
     display:flex;
