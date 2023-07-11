@@ -51,7 +51,7 @@ header ul li a{
 .space {
     height: 15vh;
     width: 100vw;
-    background-image: url("assets/images/upload5_Original.jpg");
+    background-image: url("../images/upload5_Original.jpg");
     background-repeat: none;
     background-size: cover;
     display:flex;
@@ -130,19 +130,19 @@ main{
 #firstwork{
     width: 64.3vw;
     height: 45vh;
-    background-image:url("assets/images/IMG_6009.jpg");  
+    background-image:url("../images/IMG_6009.jpg");  
 }
 #work2{
-    background-image:url("assets/images/11C5453E-5DA1-4DA0-B01F-A90E27FA4EDE.jpg");
+    background-image:url("../images/11C5453E-5DA1-4DA0-B01F-A90E27FA4EDE.jpg");
 }
 #work3{
-    background-image:url("assets/images/IMG_5435.jpg");
+    background-image:url("../images/IMG_5435.jpg");
 }
 #work4{
-    background-image:url("assets/images/79749A1D-BC74-470E-8F63-34BF8CC57ED1.jpg");
+    background-image:url("../images/79749A1D-BC74-470E-8F63-34BF8CC57ED1.jpg");
 } 
 #work5{
-    background-image: url("assets/images/IMG_5246.jpg");
+    background-image: url("../images/IMG_5246.jpg");
 }
 header ul li:hover{
     transform: scale(1.1);
