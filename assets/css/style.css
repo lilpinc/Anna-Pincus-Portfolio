@@ -8,12 +8,15 @@ body{
     line-height:1.0;
     color: var(--font);
 }
+/* created roots for the background and font colors */
 :root {
  --background: lightblue;
  --header-border: #6e9ec2;
  --titles:  #7fb4db;
  --font: black;
 }
+/* utilized flex throughout the document to organize the layout of my page */
+/* utilized vh and vw throughout the document so that everything sized down nicely before the designated changes in viewport size were reached */
 header{
     background: var(--header-border);
     height:10vh;
@@ -34,6 +37,7 @@ img {
     height:55px;
     border-radius: 10px;
 }
+/* list style type none was used on both lists so that it did not include bullets */
 header nav {    
     list-style-type: none;
     font-size:20px;
@@ -66,6 +70,7 @@ header ul li a{
     padding: 10px;
     border-radius: 10px;
 }
+/* utlizied wrap in both these segments so the content could be seen without scrolling left or right */
 main{
     width:100%;
     height:100%;
@@ -108,8 +113,6 @@ main{
     margin: 0px 10px 20px 10px;  
 }
 .work h5 {
-    display: flex;
-    flex-direction:row;
     text-align: center;
     align-items: center;
     padding:2px;
@@ -127,6 +130,7 @@ main{
     background-repeat: none;
     background-size: cover;
 }
+/* made the first work larger than the others, put in my artwork as substitute backgrounds! */
 #firstwork{
     width: 64.3vw;
     height: 45vh;
@@ -144,6 +148,7 @@ main{
 #work5{
     background-image: url("../images/IMG_5246.jpg");
 }
+/* included hovers in the header and projects so that when you go over it they get a little larger and/or get highlighted by increasing brightness */
 header ul li:hover{
     transform: scale(1.1);
 }
@@ -172,11 +177,8 @@ footer{
     font-weight: normal;
     background:var(--header-border);
 }
-
+/* did a lot of things here. at 768 I made the header switch from a row scheme to a column. transitioned the fonts for vw to px so that they wouldn't get too small as they downsized, switched the projects from a row wrap to a column. At 567 I made the contacts also a column among others small adjustments in section size. */
 @media  screen and (max-width: 992px){
-   .contactlist li {
-    margin: 0px 20px 0px 20px;
-}
    img{
     width: 50px;
     height: 50px; 
@@ -184,6 +186,7 @@ footer{
    .work h5{
     height:5vh; 
 }  
+}
 @media screen and (max-width: 768px){
     header{
         flex-direction: column;
