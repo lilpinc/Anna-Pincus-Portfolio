@@ -13,7 +13,7 @@ This portfolio was made to collect and display the completed coding projects of 
 
 This portfolio can be used to review html and css techniques. It can also be used to review Anna's completed coding projects over the course of the bootcamp.
 
-To utilize, open webpage. 
+To utilize, open webpage. https://lilpinc.github.io/Anna-Pincus-Portfolio/ 
 
 ## Credits
 
